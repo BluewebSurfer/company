@@ -1,0 +1,29 @@
+.ourplans{
+    /* border: 1px solid red; */
+}
+.ourplans > h1{
+text-align: center;
+padding: 10px;
+margin-bottom: 20px;
+color: rgb(78, 78, 78);
+}
+.ourplans .ourplans-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.ourplans-cards .ourplans-card{
+    border: 5px solid #3dd0fe;
+    border-radius: 10px;
+    padding: 10px;
+}
+.ourplans-card i{
+    font-size: 4em;
+margin-left: 100px;
+}
+.ourplans-card h1{
+    text-align: center;
+    
+}
+.ourplans-card ul{
+    list-style-type: none;
+}
