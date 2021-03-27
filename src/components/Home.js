@@ -8,18 +8,29 @@ import DevelopmentSteps from './DevelopmentSteps'
 import WhyChooseUs from './WhyChooseUs'
 import ScrollCards from './ScrollCards'
 import OurPlans from './OurPlans'
+import WhatWeDo from "./WhatWeDo";
+import Contactus from './Contactus'
 
 function Home() {
     return (
         <div>
-            <Header />
+            <Header  />
             <Services />
             <ServicesCards />
-            <SmallBanner />
+            <SmallBanner 
+                bannerhead={"We make the best website that you need !"} 
+                bannerbutton={"Contact Us"}
+            />
             <DevelopmentSteps />
             <WhyChooseUs />
             <ScrollCards />
             <OurPlans />
+            <WhatWeDo />
+            <SmallBanner 
+                bannerhead={"If you want a fast, powerful easily managed website bluewebsurfer is for you."} 
+                bannerbutton={"Know Us"}
+            />
+            <Contactus />
         </div>
     )
 }

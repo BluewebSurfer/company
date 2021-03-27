@@ -1,11 +1,11 @@
 import React from 'react'
 import './SmallBanner.css'
 
-function SmallBanner() {
+function SmallBanner(props) {
     return (
         <div className="smallbanner">
-            <h1>We make the best site that you need !</h1>
-            <a href="#">Contact Us</a>
+            <h1>{props.bannerhead}</h1>
+            <a href="#">{props.bannerbutton}</a>
         </div>
     )
 }
