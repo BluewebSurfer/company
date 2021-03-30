@@ -11,10 +11,15 @@ function Services() {
     return (
         <div className="services">
             <div>
-                <h1>Our Services</h1>
+                <h1 
+                    data-aos="fade-right"
+                >Our Services</h1>
             </div>
             <div className="services-cards">
-                <div className="services-card">
+                <div 
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                     className="services-card">
                     <div className="services-card-img">
                         <img src={WebDevelopment} />
                     </div>
@@ -23,7 +28,10 @@ function Services() {
                         <p>We make your online presence creatively.</p>
                     </div>
                 </div>
-                <div className="services-card">
+                <div 
+                    data-aos="fade-up"
+                    data-aos-delay="200" 
+                    className="services-card">
                     <div className="services-card-img">
                         <img src={DigitalMarketing} />
                     </div>
@@ -32,7 +40,10 @@ function Services() {
                         <p>We make your online presence creatively.</p>
                     </div>
                 </div>
-                <div className="services-card">
+                <div 
+                    data-aos="fade-up" 
+                    data-aos-delay="200"
+                    className="services-card">
                     <div className="services-card-img">
                         <img src={GraphicDesign} />
                     </div>
@@ -41,7 +52,10 @@ function Services() {
                         <p>We make your online presence creatively.</p>
                     </div>
                 </div>
-                <div className="services-card">
+                <div 
+                    data-aos="fade-up" 
+                    data-aos-delay="100"
+                    className="services-card">
                     <div className="services-card-img">
                         <img src={LogoDesign} />
                     </div>
@@ -50,7 +64,10 @@ function Services() {
                         <p>We make your online presence creatively.</p>
                     </div>
                 </div>
-                <div className="services-card">
+                <div 
+                    data-aos="fade-up"
+                    data-aos-delay="100" 
+                    className="services-card">
                     <div className="services-card-img">
                         <img src={SEO} />
                     </div>
@@ -59,7 +76,10 @@ function Services() {
                         <p>We make your online presence creatively.</p>
                     </div>
                 </div>
-                <div className="services-card">
+                <div 
+                    data-aos="fade-up"
+                    data-aos-delay="200" 
+                    className="services-card">
                     <div className="services-card-img">
                         <img src={MobileAppDevelopment} />
                     </div>

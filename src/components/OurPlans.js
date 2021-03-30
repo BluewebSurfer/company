@@ -6,8 +6,9 @@ function OurPlans() {
         <div className="ourplans">
             <h1>Our Plans</h1>
             <div className="ourplans-cards">
-                <div className="ourplans-card">
-                    <i className="fa fa-facebook"></i>
+                <div className="ourplans-card"
+                data-aos="fade-left">
+                    {/* <i className="fa fa-facebook"></i> */}
                     <h1>Normal Package</h1>
                     <ul>
                         <li>No Domain</li>
@@ -25,8 +26,10 @@ function OurPlans() {
                         <li>Note: 18% GST applicable on all purachse</li>
                     </ul>
                 </div>
-                <div className="ourplans-card">
-                    <i className="fa fa-facebook"></i>
+                <div className="ourplans-card"
+                data-aos="fade-left"
+                data-aos-delay="100">
+                    {/* <i className="fa fa-facebook"></i> */}
                     <h1>Basic Package</h1>
                     <ul>
                         <li>No Domain</li>
@@ -44,8 +47,10 @@ function OurPlans() {
                         <li>Note: 18% GST applicable on all purachse</li>
                     </ul>
                 </div>
-                <div className="ourplans-card">
-                    <i className="fa fa-facebook"></i>
+                <div className="ourplans-card"
+                data-aos="fade-left"
+                data-aos-delay="150">
+                    {/* <i className="fa fa-facebook"></i> */}
                     <h1>Classic Package</h1>
                     <ul>
                         <li>No Domain</li>
@@ -63,8 +68,10 @@ function OurPlans() {
                         <li>Note: 18% GST applicable on all purachse</li>
                     </ul>
                 </div>
-                <div className="ourplans-card">
-                    <i className="fa fa-facebook"></i>
+                <div className="ourplans-card"
+                data-aos="fade-left"
+                data-aos-delay="200">
+                    {/* <i className="fa fa-facebook"></i> */}
                     <h1>Standard Package</h1>
                     <ul>
                         <li>No Domain</li>

@@ -1,5 +1,6 @@
 .services{
     /* border: 1px solid red; */
+    overflow: hidden;
 }
 .services hr{
     border: 1px solid rgb(119, 119, 119);

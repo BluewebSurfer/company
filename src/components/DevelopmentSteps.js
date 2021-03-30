@@ -10,7 +10,8 @@ function DevelopmentSteps() {
         <div className="developmentsteps">
             <h1>Get your website ready in 3 easy steps.</h1>
             <div className="developmentsteps-cards">
-                <div className="developmentsteps-card">
+                <div className="developmentsteps-card"
+                    data-aos="fade-left">
                     <div className="developmentsteps-card-img">
                         <img src={CallusGif} />
                     </div>
@@ -18,7 +19,9 @@ function DevelopmentSteps() {
                         <h1>Give us a call</h1>
                     </div>
                 </div>
-                <div className="developmentsteps-card">
+                <div className="developmentsteps-card"
+                data-aos="fade-left"
+                data-aos-delay="100">
                     <div className="developmentsteps-card-img">
                         <img src={DevlopingstepGif} />
                     </div>
@@ -26,7 +29,9 @@ function DevelopmentSteps() {
                         <h1>Let our developers handle it</h1>
                     </div>
                 </div>
-                <div className="developmentsteps-card">
+                <div className="developmentsteps-card"
+                data-aos="fade-left"
+                data-aos-delay="200">
                     <div className="developmentsteps-card-img">
                         <img src={DeliveryGif} />
                     </div>

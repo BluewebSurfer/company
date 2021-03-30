@@ -7,7 +7,9 @@ function WhyChooseUs() {
         <div className="whychooseus">
             <h1>Why choose us</h1>     
             <div className="whychooseus-cards">
-                <div className="whychooseus-card">
+                <div className="whychooseus-card"
+                data-aos="fade-up"
+                >
                     <div className="whychooseus-card-img">
                         <i class="fa fa-thumbs-up" aria-hidden="true"></i>
                     </div>
@@ -18,7 +20,9 @@ function WhyChooseUs() {
                         </p>
                     </div>
                 </div>
-                <div className="whychooseus-card">
+                <div className="whychooseus-card"
+                data-aos="fade-up"
+                data-aos-delay="100">
                     <div className="whychooseus-card-img">
                     <i class="fa fa-wrench" aria-hidden="true"></i>
                     </div>
@@ -28,7 +32,9 @@ function WhyChooseUs() {
                         </p>
                     </div>
                 </div>
-                <div className="whychooseus-card">
+                <div className="whychooseus-card"
+                data-aos="fade-up"
+                data-aos-delay="200">
                     <div className="whychooseus-card-img">
                     <i class="fa fa-phone-square" aria-hidden="true"></i>
                     </div>
@@ -39,7 +45,9 @@ function WhyChooseUs() {
                         </p>
                     </div>
                 </div>
-                <div className="whychooseus-card">
+                <div className="whychooseus-card"
+                data-aos="fade-up"
+                data-aos-delay="500">
                     <div className="whychooseus-card-img">
                     <i class="fa fa-money" aria-hidden="true"></i>
                     </div>
@@ -50,7 +58,9 @@ function WhyChooseUs() {
                     </p>
                     </div>
                 </div>
-                <div className="whychooseus-card">
+                <div className="whychooseus-card"
+                data-aos="fade-up"
+                data-aos-delay="400">
                     <div className="whychooseus-card-img">
                     <i class="fa fa-graduation-cap" aria-hidden="true"></i>
                     </div>
@@ -61,7 +71,9 @@ function WhyChooseUs() {
                     </p>
                     </div>
                 </div>
-                <div className="whychooseus-card">
+                <div className="whychooseus-card"
+                data-aos="fade-up"
+                data-aos-delay="300">
                     <div className="whychooseus-card-img">
                     <i class="fa fa-desktop" aria-hidden="true"></i>
                     </div>

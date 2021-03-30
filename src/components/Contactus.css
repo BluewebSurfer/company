@@ -1,6 +1,6 @@
 .contactus{
     /* border: 1px solid black; */
-    
+    margin-bottom: 150px;
 }
 .contactus h1{
 margin-left: 100px;
@@ -97,7 +97,7 @@ padding: 10px;
     position: absolute;
     bottom: 0;
     top: 110%;
-    left: 100%;
+    left: 85%;
     transform: translate(-50%,-50%);
 }
 .form-button button{

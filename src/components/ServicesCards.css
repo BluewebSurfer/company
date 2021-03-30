@@ -4,6 +4,7 @@
 }
 .servicescards-row{
     display: flex;
+    overflow: hidden;
 }
 .servicescards-img{
 width: 50%;
@@ -26,6 +27,7 @@ margin:20px 0;
     /* border: 5px solid blue; */
     padding-top: 20px;
     padding-left: 40px;
+    overflow: hidden;
     background-color: rgba(196, 196, 196, 0.28);
 }
 .servicescards-content h1{

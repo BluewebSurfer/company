@@ -11,10 +11,31 @@
     width: 30%;
     text-decoration: none;
     color: white;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);   
 }
-.scrollcards .first {
-    animation: cardmove 10s infinite;
+.scrollcards .first{
+    animation: cardmove 10s linear infinite;
+    /* transform:translateX(100%); */
+}
+.scrollcards .second{
+    animation: cardmove 15s linear infinite;
+    /* transform:translateX(100%); */
+}
+.scrollcards .third{
+    animation: cardmove 20s linear infinite;
+    /* transform:translateX(100%); */
+}
+.scrollcards .fourth{
+    animation: cardmove 25s linear infinite;
+    /* transform:translateX(100%); */
+}
+.scrollcards .fifth{
+    animation: cardmove 30s linear infinite;
+    /* transform:translateX(100%); */
+}
+.scrollcards .sixth{
+    animation: cardmove 35s linear infinite;
+    /* transform:translateX(100%); */
 }
 .scrollcards .scrollcard h1{
 /* margin-top: 55px; */
@@ -29,7 +50,7 @@ text-decoration: none;
  display: flex;
  justify-content: center;
  align-items: center;
- transition: all 0.5s ease;
+ /* transition: all 0.5s ease; */
 }
 .scrollcard.two{
     background: url("../assets/img/digitalcard.jpg");
@@ -40,7 +61,7 @@ text-decoration: none;
  display: flex;
  justify-content: center;
  align-items: center;
- transition: all 0.5s ease;
+ /* transition: all 0.5s ease; */
 }
 .scrollcard.three{
     background: url("../assets/img/hostingcard.jpg");
@@ -51,15 +72,15 @@ text-decoration: none;
  display: flex;
  justify-content: center;
  align-items: center;
- transition: all 0.5s ease;
+ /* transition: all 0.5s ease; */
 }
 
-@keyframes cardmove {
+/* @keyframes cardmove {
     0%{
-        margin-left:0;
+        transform: translateX(100%);
     }
     100%{
-        margin-left:-1600px;
+        transform: translateX(-100%);
     }
-}
+} */
 

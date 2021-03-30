@@ -14,7 +14,7 @@ import Contactus from './Contactus'
 function Home() {
     return (
         <div>
-            <Header  />
+            <Header />
             <Services />
             <ServicesCards />
             <SmallBanner 
@@ -26,11 +26,12 @@ function Home() {
             <ScrollCards />
             <OurPlans />
             <WhatWeDo />
-            <SmallBanner 
+            <SmallBanner
                 bannerhead={"If you want a fast, powerful easily managed website bluewebsurfer is for you."} 
                 bannerbutton={"Know Us"}
             />
             <Contactus />
+            
         </div>
     )
 }

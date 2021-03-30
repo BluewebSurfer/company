@@ -7,7 +7,8 @@ function WhatWeDo() {
         <div className="whatwedo">
             <h1>This is what we do</h1>
             <div className="whatwedo-card">
-                <div className="whatwedo-content">
+                <div className="whatwedo-content"
+                data-aos="fade-right">
                     <p>
                     BlueWeb Surfer Website Development Company from Siliguri,
 Provide Exclusive services of SEO friendly Website Design, Web
@@ -17,7 +18,8 @@ Web-Based Application for all its Customers. Blueweb surfer
 specialized in customize websites.
                     </p>
                 </div>
-                <div className="whatwedo-img">
+                <div className="whatwedo-img"
+                data-aos="fade-left">
                     <img src={LaptopImg} />
                 </div>
 

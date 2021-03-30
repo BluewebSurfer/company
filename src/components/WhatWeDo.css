@@ -10,6 +10,7 @@
 .whatwedo .whatwedo-card{
     display: flex;
     /* border: 1px solid red; */
+    overflow: hidden;
 }
 .whatwedo-card .whatwedo-content{
     width: 60%;

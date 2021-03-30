@@ -1,6 +1,7 @@
 .developmentsteps{
     /* border: 1px solid red; */
     margin-top: 30px;
+    overflow: hidden;
 }
 .developmentsteps h1{
     width: fit-content;
@@ -10,9 +11,12 @@
 .developmentsteps-cards{
     display: flex;
     justify-content: space-around;
+    overflow: hidden;
+
 }
 .developmentsteps-cards .developmentsteps-card{
 width: 30%;
+overflow: hidden;
 /* border: 1px solid red; */
 }
 .developmentsteps-card .developmentsteps-card-img{
